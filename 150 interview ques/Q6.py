@@ -1,6 +1,7 @@
 """
 https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
 """
+from typing import List 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         n = len(nums)
